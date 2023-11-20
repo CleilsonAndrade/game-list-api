@@ -1,6 +1,7 @@
 package br.com.cleilsonandrade.dslist.dto;
 
 import br.com.cleilsonandrade.dslist.entities.Game;
+import br.com.cleilsonandrade.dslist.projections.GameMinProjection;
 
 public class GameMinDTO {
   private Long id;
@@ -15,6 +16,14 @@ public class GameMinDTO {
     this.year = gameEntity.getYear();
     this.imgUrl = gameEntity.getImgUrl();
     this.shortDescription = gameEntity.getShortDescription();
+  }
+
+  public GameMinDTO(GameMinProjection projection) {
+    this.id = projection.getId();
+    this.title = projection.getTitle();
+    this.year = projection.getYear();
+    this.imgUrl = projection.getImgUrl();
+    this.shortDescription = projection.getShortDescription();
   }
 
   public GameMinDTO() {
