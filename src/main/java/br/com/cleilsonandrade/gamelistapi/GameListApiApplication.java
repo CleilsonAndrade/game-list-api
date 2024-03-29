@@ -1,13 +1,13 @@
-package br.com.cleilsonandrade.dslist;
+package br.com.cleilsonandrade.gamelistapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DslistApplication {
+public class GameListApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DslistApplication.class, args);
+		SpringApplication.run(GameListApiApplication.class, args);
 	}
 
 }

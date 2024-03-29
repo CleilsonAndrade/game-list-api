@@ -1,4 +1,4 @@
-package br.com.cleilsonandrade.dslist.services;
+package br.com.cleilsonandrade.gamelistapi.services;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.cleilsonandrade.dslist.dto.GameListDTO;
-import br.com.cleilsonandrade.dslist.entities.GameList;
-import br.com.cleilsonandrade.dslist.projections.GameMinProjection;
-import br.com.cleilsonandrade.dslist.repositories.GameListRepository;
-import br.com.cleilsonandrade.dslist.repositories.GameRepository;
+import br.com.cleilsonandrade.gamelistapi.dto.GameListDTO;
+import br.com.cleilsonandrade.gamelistapi.entities.GameList;
+import br.com.cleilsonandrade.gamelistapi.projections.GameMinProjection;
+import br.com.cleilsonandrade.gamelistapi.repositories.GameListRepository;
+import br.com.cleilsonandrade.gamelistapi.repositories.GameRepository;
 
 @Service
 public class GameListService {

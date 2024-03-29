@@ -1,4 +1,4 @@
-package br.com.cleilsonandrade.dslist.projections;
+package br.com.cleilsonandrade.gamelistapi.projections;
 
 public interface GameMinProjection {
   Long getId();

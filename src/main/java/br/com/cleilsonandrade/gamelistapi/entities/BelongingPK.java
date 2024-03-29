@@ -1,4 +1,4 @@
-package br.com.cleilsonandrade.dslist.entities;
+package br.com.cleilsonandrade.gamelistapi.entities;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;

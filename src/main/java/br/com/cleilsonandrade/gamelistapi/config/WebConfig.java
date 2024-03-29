@@ -1,4 +1,4 @@
-package br.com.cleilsonandrade.dslist.config;
+package br.com.cleilsonandrade.gamelistapi.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

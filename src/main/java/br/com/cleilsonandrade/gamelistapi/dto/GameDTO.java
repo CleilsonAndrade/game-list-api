@@ -1,8 +1,8 @@
-package br.com.cleilsonandrade.dslist.dto;
+package br.com.cleilsonandrade.gamelistapi.dto;
 
 import org.springframework.beans.BeanUtils;
 
-import br.com.cleilsonandrade.dslist.entities.Game;
+import br.com.cleilsonandrade.gamelistapi.entities.Game;
 
 public class GameDTO {
   private Long id;

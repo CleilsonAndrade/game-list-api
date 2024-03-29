@@ -1,7 +1,7 @@
-package br.com.cleilsonandrade.dslist.dto;
+package br.com.cleilsonandrade.gamelistapi.dto;
 
-import br.com.cleilsonandrade.dslist.entities.Game;
-import br.com.cleilsonandrade.dslist.projections.GameMinProjection;
+import br.com.cleilsonandrade.gamelistapi.entities.Game;
+import br.com.cleilsonandrade.gamelistapi.projections.GameMinProjection;
 
 public class GameMinDTO {
   private Long id;

@@ -1,6 +1,6 @@
-package br.com.cleilsonandrade.dslist.dto;
+package br.com.cleilsonandrade.gamelistapi.dto;
 
-import br.com.cleilsonandrade.dslist.entities.GameList;
+import br.com.cleilsonandrade.gamelistapi.entities.GameList;
 
 public class GameListDTO {
   private Long id;

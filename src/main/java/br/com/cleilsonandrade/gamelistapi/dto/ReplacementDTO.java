@@ -1,4 +1,4 @@
-package br.com.cleilsonandrade.dslist.dto;
+package br.com.cleilsonandrade.gamelistapi.dto;
 
 public class ReplacementDTO {
   private Integer sourceIndex;

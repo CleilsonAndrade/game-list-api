@@ -1,4 +1,4 @@
-package br.com.cleilsonandrade.dslist.controllers;
+package br.com.cleilsonandrade.gamelistapi.controllers;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.cleilsonandrade.dslist.dto.GameDTO;
-import br.com.cleilsonandrade.dslist.dto.GameMinDTO;
-import br.com.cleilsonandrade.dslist.services.GameService;
+import br.com.cleilsonandrade.gamelistapi.dto.GameDTO;
+import br.com.cleilsonandrade.gamelistapi.dto.GameMinDTO;
+import br.com.cleilsonandrade.gamelistapi.services.GameService;
 
 @RestController
 @RequestMapping(value = "/games")

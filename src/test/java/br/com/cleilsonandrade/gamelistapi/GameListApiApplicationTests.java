@@ -1,10 +1,10 @@
-package br.com.cleilsonandrade.dslist;
+package br.com.cleilsonandrade.gamelistapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DslistApplicationTests {
+class GameListApiApplicationTests {
 
 	@Test
 	void contextLoads() {
