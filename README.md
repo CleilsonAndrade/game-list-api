@@ -45,7 +45,7 @@ Game List API é uma API com a proposta de que se possa gerenciar listas de jogo
 | <kbd>GET /games/:id </kbd>     | Responsável por listar todas as informações de um jogo por seu ID
 | <kbd>GET /lists </kbd>     | Responsável por listar todas as listas de jogos cadastradas, retornando sua posição (ID) e nome da lista
 | <kbd>GET /lists/:id/games </kbd>     | Responsável por listar todas as informações dos jogos de uma lista especifica por sua posição (ID)
-| <kbd>POST /lists/:id/replacement </kbd>     | Responsável por reposicionar a posição (ID) da lista informando-a, e enviando via corpo de requisição a posição atual e a destino
+| <kbd>POST /lists/:id/replacement </kbd>     | Responsável por reposicionar a posição (ID) da lista, e enviando via corpo de requisição a posição atual e a destino
 | <kbd>GET /h2-console </kbd>     | Responsável por acesso ao *H2 Database*
 
 # 🚀 <span id="instalação">Instalação</span>
