@@ -55,7 +55,7 @@ Game List API é uma API com a proposta de que se possa gerenciar listas de jogo
   $ cd ./game-list-api
 
   # Instalar as dependências:
-  $ mvn clean instal
+  $ mvn clean install
 
   # Executar:
   $ mvn spring-boot:run
