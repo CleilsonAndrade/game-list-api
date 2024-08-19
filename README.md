@@ -14,7 +14,7 @@
 * [Licença](#licença)
 
 # 📃 <span id="descrição">Descrição</span>
-Game List API é uma API com a proposta de que se possa gerenciar listas de jogos previamente cadastrados. Utilizando os recursos do framework Spring para web do Java em conjunto com outras ferramentas como: [**Spring Web**](https://docs.spring.io/spring-boot/docs/current/reference/html/web.html), [**Spring Data JPA**](https://spring.io/projects/spring-data-jpa) e banco de dados como [**MySQL**](https://www.mysql.com/) e [H2 Database](https://www.h2database.com/), nos quais são utilizados para ambientes de desenvolvimentos específicos. Os recursos da aplicação incluem além do gerenciamento das listas exibir informações dos jogos e posicionamento das listas.
+Game List API é uma API com a proposta de que se possa gerenciar listas de jogos previamente cadastrados. Utilizando os recursos do framework Spring para web do Java em conjunto com outras ferramentas como: [**Spring Web**](https://docs.spring.io/spring-boot/docs/current/reference/html/web.html), [**Spring Data JPA**](https://spring.io/projects/spring-data-jpa) e banco de dados como [**MySQL**](https://www.mysql.com/) e [**H2 Database**](https://www.h2database.com/), nos quais são utilizados para ambientes de desenvolvimentos específicos. Os recursos da aplicação incluem além do gerenciamento das listas exibir informações dos jogos e posicionamento das listas.
 
 # 📌 <span id="requisitos">Requisitos Funcionais</span>
 - [x] Exibir todos os jogos previamente cadastrados<br>
