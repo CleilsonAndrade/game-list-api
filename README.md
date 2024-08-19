@@ -39,14 +39,14 @@ Game List API é uma API com a proposta de que se possa gerenciar listas de jogo
 - **H2 Database**
 
 # 📍 <span id="endpoints">Endpoints</span>
-| Endpoint               | Resumo                                          
-|----------------------|-----------------------------------------------------
-| <kbd>GET /games </kbd> | Responsável por listar todas as informações de todos os jogos
-| <kbd>GET /games/:id </kbd> | Responsável por listar todas as informações de um jogo por seu ID
-| <kbd>GET /lists </kbd> | Responsável por listar todas as listas de jogos cadastradas, retornando sua posição (ID) e nome da lista
-| <kbd>GET /lists/:id/games </kbd> | Responsável por listar todas as informações dos jogos de uma lista especifica por sua posição (ID)
-| <kbd>POST /lists/:id/replacement </kbd> | Responsável por reposicionar a posição (ID) da lista, e enviando via corpo de requisição a posição atual e a destino
-| <kbd>GET /h2-console </kbd> | Responsável por acesso ao *H2 Database*
+| Método | Endpoint               | Resumo                                          | Autenticação
+|--------|----------------------|-----------------------------------------------------|-----------------------------------------------------
+<kbd>GET</kbd> | <kbd>/games</kbd> | Responsável por listar todas as informações de todos os jogos | Não
+<kbd>GET</kbd> | <kbd>/games/:id</kbd> | Responsável por listar todas as informações de um jogo por seu ID | Não
+<kbd>GET</kbd> | <kbd>/lists</kbd> | Responsável por listar todas as listas de jogos cadastradas, retornando sua posição (ID) e nome da lista | Não
+<kbd>GET</kbd> | <kbd>/lists/:id/games</kbd> | Responsável por listar todas as informações dos jogos de uma lista especifica por sua posição (ID) | Não
+<kbd>POST</kbd> | <kbd>/lists/:id/replacement</kbd> | Responsável por reposicionar a posição (ID) da lista, e enviando via corpo de requisição a posição atual e a destino | Não
+<kbd>GET</kbd> | <kbd>/h2-console</kbd> | Responsável por acesso ao *H2 Database* | Sim
 
 # 🚀 <span id="instalação">Instalação</span>
 ```bash
